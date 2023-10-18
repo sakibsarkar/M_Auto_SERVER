@@ -70,7 +70,7 @@ async function run() {
     app.get("/brands/:brand/:model", async (req, res) => {
       const brand = req.params.brand
       const model = req.params.model
-      console.log(model);
+
       const firstLetter = model.charAt(0).toUpperCase()
       const restLetters = model.slice(1)
       const modeName = firstLetter + restLetters
@@ -89,6 +89,12 @@ async function run() {
 
     })
 
+    app.get("/getCartItems/:email", async (req, res) => {
+      const email = req.params.email
+      const cursor = await cartCollection.findOne({ email: email })
+      res.send(cursor)
+    })
+
 
     app.post("/create/cart/:email", async (req, res) => {
       const email = req.params.email
@@ -99,11 +105,29 @@ async function run() {
         return
       }
 
-else{
-  const result = await cartCollection.insertOne(cursor)
-  res.send(result)
-}
+      else {
+        const result = await cartCollection.insertOne(cursor)
+        res.send(result)
+      }
 
+    })
+
+
+    app.put("/addItem/:email", async (req, res) => {
+      console.log("f")
+      const email = req.params.email
+      const value = req.body
+      const option = { upsert: true }
+      console.log(value)
+      const query = { email: email }
+      const updateCart = {
+        $set: {
+          cartItem: value
+        }
+      }
+
+      const result = await cartCollection.updateOne(query, updateCart, option)
+      res.send(result)
     })
 
     // Send a ping to confirm a successful connection
