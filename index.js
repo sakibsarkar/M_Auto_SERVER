@@ -8,7 +8,7 @@ const app = express()
 
 // mid ware
 app.use(cors())
-app.use(express())
+app.use(express.json())
 
 
 const usrName = process.env.MONGO_USERNAME
@@ -32,6 +32,7 @@ async function run() {
     await client.connect();
 
     const collection = client.db("CarDB").collection("CarCollection")
+    const cartCollection = client.db("CarDB").collection("CartCollection")
 
 
     app.get("/brands", async (req, res) => {
@@ -69,6 +70,7 @@ async function run() {
     app.get("/brands/:brand/:model", async (req, res) => {
       const brand = req.params.brand
       const model = req.params.model
+      console.log(model);
       const firstLetter = model.charAt(0).toUpperCase()
       const restLetters = model.slice(1)
       const modeName = firstLetter + restLetters
@@ -84,6 +86,23 @@ async function run() {
         res.send(result)
       }
 
+
+    })
+
+
+    app.post("/create/cart/:email", async (req, res) => {
+      const email = req.params.email
+      const cursor = req.body
+      const oldEmail = await cartCollection.findOne({ email: email })
+
+      if (oldEmail) {
+        return
+      }
+
+else{
+  const result = await cartCollection.insertOne(cursor)
+  res.send(result)
+}
 
     })
 
