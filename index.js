@@ -41,6 +41,20 @@ async function run() {
     })
 
 
+    app.get("/brands/:brand", async (req, res) => {
+      const brandName = req.params.brand;
+      const DATA = await collection.find({
+        "car_brands.name": brandName
+      }).toArray();
+
+      if (DATA.length > 0) {
+        const result = DATA[0].car_brands.find(brand => brand.name === brandName).models;
+        res.send(result);
+        return
+      }
+
+    });
+
     // Send a ping to confirm a successful connection
     await client.db("admin").command({ ping: 1 });
     console.log("Pinged your deployment. You successfully connected to MongoDB!");
