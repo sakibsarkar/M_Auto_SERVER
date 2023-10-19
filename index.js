@@ -114,11 +114,10 @@ async function run() {
 
 
     app.put("/addItem/:email", async (req, res) => {
-      console.log("f")
+
       const email = req.params.email
       const value = req.body
       const option = { upsert: true }
-      console.log(value)
       const query = { email: email }
       const updateCart = {
         $set: {
@@ -128,6 +127,24 @@ async function run() {
 
       const result = await cartCollection.updateOne(query, updateCart, option)
       res.send(result)
+    })
+
+
+
+    app.put("/delete/cart/:email", async (req, res) => {
+      const email = req.params.email
+      const value = req.body
+      const findQuery = { email: email }
+      const option = { upsert: true }
+      const updateCart = {
+        $set: {
+          cartItem: value
+        }
+      }
+
+      const result = cartCollection.updateOne(findQuery, updateCart, option)
+      res.send(result)
+
     })
 
     // Send a ping to confirm a successful connection

@@ -365,7 +365,7 @@
             ]
         },
         {
-            "name": "mercedes-Benz",
+            "name": "mercedes",
             "country": "Germany",
             "founded": 1926,
             "image": "https://i.ibb.co/nbS6hMZ/Mercedes-Benz-Logo.png",
@@ -376,7 +376,7 @@
             ],
             "models": [
                 {
-                    "BrandName": "Mercedes-Benz",
+                    "BrandName": "Mercedes",
                     "name": "C-Class",
                     "model_Img": "https://i.ibb.co/JsJhqS3/e-class-no-background.png",
                     "year": 2016,
@@ -389,7 +389,7 @@
                     "description": "The Mercedes-Benz C-Class is a luxury sedan that combines elegance with performance. With a 2.0L Turbocharged Inline-4 engine, it offers a sophisticated driving experience for those who seek both style and power."
                 },
                 {
-                    "BrandName": "Mercedes-Benz",
+                    "BrandName": "Mercedes",
                     "name": "E-Class",
                     "model_Img": "https://i.ibb.co/JsJhqS3/e-class-no-background.png",
                     "year": 2016,
@@ -402,7 +402,7 @@
                     "description": "The Mercedes-Benz E-Class is a sophisticated sedan that offers a balance of comfort and performance. With a 2.0L Turbocharged Inline-4 engine, it's designed for those who appreciate luxury and technology."
                 },
                 {
-                    "BrandName": "Mercedes-Benz",
+                    "BrandName": "Mercedes",
                     "name": "GLC",
                     "model_Img": "https://i.ibb.co/k9SzmnB/2023-Mercedes-Benz-GLC-No-Background.webp",
                     "year": 2023,
@@ -415,7 +415,7 @@
                     "description": "The Mercedes-Benz GLC is a stylish SUV that combines versatility with luxury. With a 2.0L Turbocharged Inline-4 engine, it provides a comfortable and dynamic driving experience for both city and off-road adventures."
                 },
                 {
-                    "BrandName": "Mercedes-Benz",
+                    "BrandName": "Mercedes",
                     "name": "S-Class",
                     "model_Img": "https://i.ibb.co/pW0F0gS/model1.png",
                     "year": 2022,
@@ -428,7 +428,7 @@
                     "description": "The Mercedes-Benz S-Class is the epitome of luxury and innovation. With a powerful 3.0L Turbocharged Inline-6 engine, it offers a premium driving experience with cutting-edge technology and comfort features."
                 },
                 {
-                    "BrandName": "Mercedes-Benz",
+                    "BrandName": "Mercedes",
                     "name": "A-Class",
                     "model_Img": "https://i.ibb.co/MN13Qr7/Mercedes-A-Class-Saloon-PNG-Clipart.png",
                     "year": 2020,
@@ -441,7 +441,7 @@
                     "description": "The Mercedes-Benz A-Class is a compact luxury sedan that combines style with performance. With a 2.0L Turbocharged Inline-4 engine, it offers a sporty and refined driving experience for urban dwellers."
                 },
                 {
-                    "BrandName": "Mercedes-Benz",
+                    "BrandName": "Mercedes",
                     "name": "G-Class",
                     "model_Img": "https://i.ibb.co/9tzR1TJ/ezgif-com-webp-to-jpg-1-removebg-preview-6.png",
                     "year": 2022,
