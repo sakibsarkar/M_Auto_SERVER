@@ -57,6 +57,41 @@ async function run() {
     });
 
 
+
+
+
+    app.put("/delete/cart/:email", async (req, res) => {
+      const email = req.params.email
+      const value = req.body
+      const findQuery = { email: email }
+      const option = { upsert: true }
+      const updateCart = {
+        $set: {
+          cartItem: value
+        }
+      }
+
+      const result = cartCollection.updateOne(findQuery, updateCart, option)
+      res.send(result)
+
+    })
+
+
+
+    app.put("/brands/:brand", async (req, res) => {
+      const brand = req.params.brand
+      const value = req.body
+      const find = { "car_brands.name": brand }
+      const updateCart = { $set: { "car_brands.$.models": value } }
+
+      const result = collection.updateOne(find, updateCart)
+      res.send(result)
+
+    })
+
+
+
+
     app.get("/brands/banner/:brand", async (req, res) => {
       const brandName = req.params.brand
       const DATA = await collection.find({
@@ -129,23 +164,6 @@ async function run() {
       res.send(result)
     })
 
-
-
-    app.put("/delete/cart/:email", async (req, res) => {
-      const email = req.params.email
-      const value = req.body
-      const findQuery = { email: email }
-      const option = { upsert: true }
-      const updateCart = {
-        $set: {
-          cartItem: value
-        }
-      }
-
-      const result = cartCollection.updateOne(findQuery, updateCart, option)
-      res.send(result)
-
-    })
 
     // Send a ping to confirm a successful connection
     await client.db("admin").command({ ping: 1 });

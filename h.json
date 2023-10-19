@@ -12,6 +12,7 @@
             ],
             "models": [
                 {
+                    "id": 1,
                     "BrandName": "Toyota",
                     "name": "Camry",
                     "model_Img": "https://i.ibb.co/gMmZ6tZ/cc-2023-TOC020042-01-1280-040.png",
@@ -25,6 +26,7 @@
                     "description": "The Toyota Camry is a reliable sedan known for its comfort and fuel efficiency. With a powerful 2.5L Inline-4 engine, it provides a smooth and enjoyable driving experience."
                 },
                 {
+                    "id": 2,
                     "BrandName": "Toyota",
                     "name": "Corolla",
                     "model_Img": "https://i.ibb.co/qF1Gx5Q/SPN-AUS-0101-F7-FA204-E24420-A0-compcrop-001.png",
@@ -38,6 +40,7 @@
                     "description": "The Toyota Corolla is a classic sedan known for its reliability and fuel efficiency. With a 1.8L Inline-4 engine, it offers a balanced blend of performance and economy."
                 },
                 {
+                    "id": 3,
                     "BrandName": "Toyota",
                     "name": "Rav4",
                     "model_Img": "https://i.ibb.co/9HYYFjy/1.png",
@@ -51,6 +54,7 @@
                     "description": "The Toyota RAV4 is a versatile SUV with a sleek design and advanced features. Powered by a 2.5L Inline-4 engine, it combines style with performance for your adventurous journeys."
                 },
                 {
+                    "id": 4,
                     "BrandName": "Toyota",
                     "name": "Prius",
                     "model_Img": "https://i.ibb.co/PG1Z0Rt/51364-st0640-116.png",
@@ -64,6 +68,7 @@
                     "description": "The Toyota Prius is a groundbreaking hybrid car known for its fuel efficiency and eco-friendly design. With a 1.8L Inline-4 Hybrid engine, it leads the way in sustainable driving."
                 },
                 {
+                    "id": 5,
                     "BrandName": "Toyota",
                     "name": "Highlander",
                     "model_Img": "https://i.ibb.co/K9b4pC1/hero-image-highlander.png",
@@ -77,6 +82,7 @@
                     "description": "The Toyota Highlander is a powerful SUV designed for those seeking a spacious and comfortable ride. Equipped with a 3.5L V6 engine, it delivers both performance and reliability."
                 },
                 {
+                    "id": 6,
                     "BrandName": "Toyota",
                     "name": "Tacoma",
                     "model_Img": "https://i.ibb.co/FKyz04F/b23-gz5ant-fl1-0089-n.png",
@@ -103,6 +109,7 @@
             ],
             "models": [
                 {
+                    "id": 1,
                     "BrandName": "Ford",
                     "name": "F-150",
                     "model_Img": "https://i.ibb.co/6Yb6fkX/2022-Ford-F-150-Lightning.png",
@@ -116,6 +123,7 @@
                     "description": "The Ford F-150 is a powerful and reliable truck, designed for those who need a workhorse for various tasks. With a 3.3L V6 engine, it delivers a blend of performance and capability."
                 },
                 {
+                    "id": 2,
                     "BrandName": "Ford",
                     "name": "Mustang",
                     "model_Img": "https://i.ibb.co/Jmxw01R/Red-Ford-Mustang-2018-e1502714056124-1024x576.png",
@@ -129,6 +137,7 @@
                     "description": "The Ford Mustang is an iconic coupe known for its performance and style. Featuring a 2.3L Turbocharged Inline-4 engine, it provides a thrilling driving experience for enthusiasts."
                 },
                 {
+                    "id":3,
                     "BrandName": "Ford",
                     "name": "Escape",
                     "model_Img": "https://i.ibb.co/g6V7xzS/337-3373480-new-2018-ford-escape-titanium-white-ford-escape.png",
@@ -142,6 +151,7 @@
                     "description": "The Ford Escape is a versatile SUV designed for everyday adventures. With a 1.5L Turbocharged Inline-3 engine, it offers a balance of efficiency and practicality for your journeys."
                 },
                 {
+                    "id": 4,
                     "BrandName": "Ford",
                     "name": "Explorer",
                     "model_Img": "https://i.ibb.co/wRg1Vyg/c05d0ce7b440475fb09dad8412853707-768x425.png",
@@ -155,6 +165,7 @@
                     "description": "The Ford Explorer is a spacious and powerful SUV, perfect for families and those who need extra cargo space. Equipped with a 2.3L Turbocharged Inline-4 engine, it delivers both performance and comfort."
                 },
                 {
+                    "id": 5,
                     "BrandName": "Ford",
                     "name": "Edge",
                     "model_Img": "https://i.ibb.co/Lx4gjt2/ford-edge-png-33.png",
@@ -168,6 +179,7 @@
                     "description": "The Ford Edge is a stylish and modern SUV designed for urban adventures. Powered by a 2.0L Turbocharged Inline-4 engine, it offers a comfortable and enjoyable ride."
                 },
                 {
+                    "id": 6,
                     "BrandName": "Ford",
                     "name": "Focus",
                     "model_Img": "https://i.ibb.co/k0HKvMq/Ford-Focus-ST-PNG-File.png",
@@ -194,6 +206,7 @@
             ],
             "models": [
                 {
+                    "id": 1,
                     "BrandName": "BMW",
                     "name": "3 Series",
                     "model_Img": "https://i.ibb.co/w4dktVD/bmw-3-series-328i-sedan-png-215681005306dzhlusew6.png",
@@ -207,6 +220,7 @@
                     "description": "The BMW 3 Series is a dynamic sedan that combines sportiness with elegance. With a powerful 2.0L Turbocharged Inline-4 engine, it delivers a thrilling driving experience for enthusiasts."
                 },
                 {
+                    "id": 2,
                     "BrandName": "BMW",
                     "name": "5 Series",
                     "model_Img": "https://i.ibb.co/jfP09sb/2023-bmw-530e-sedan.png",
@@ -220,6 +234,7 @@
                     "description": "The BMW 5 Series is a luxurious sedan that offers a perfect blend of performance and comfort. With a 2.0L Turbocharged Inline-4 engine, it's designed for those who appreciate sophistication on the road."
                 },
                 {
+                    "id": 3,
                     "BrandName": "BMW",
                     "name": "X3",
                     "model_Img": "https://i.ibb.co/WGQnYzM/4f776c67-fedf-4fb3-8db1-4b84ef270069.png",
@@ -233,6 +248,7 @@
                     "description": "The BMW X3 is a versatile SUV that combines style with practicality. Powered by a 2.0L Turbocharged Inline-4 engine, it provides a smooth and comfortable ride for your daily adventures."
                 },
                 {
+                    "id": 4,
                     "BrandName": "BMW",
                     "name": "7 Series",
                     "model_Img": "https://i.ibb.co/NK51Jyb/2017-BMC810001-1280-01.png",
@@ -246,6 +262,7 @@
                     "description": "The BMW 7 Series is a flagship sedan that redefines luxury and performance. With a 3.0L Turbocharged Inline-6 engine, it offers a premium driving experience with advanced features."
                 },
                 {
+                    "id": 5,
                     "BrandName": "BMW",
                     "name": "X5",
                     "model_Img": "https://i.ibb.co/Nt6f2HS/800x531.png",
@@ -259,6 +276,7 @@
                     "description": "The BMW X5 is a luxury SUV that combines performance with versatility. With a 3.0L Turbocharged Inline-6 engine, it's designed for those who seek a premium and spacious driving experience."
                 },
                 {
+                    "id": 6,
                     "BrandName": "BMW",
                     "name": "i8",
                     "model_Img": "https://i.ibb.co/HXCbyQL/910602979bda92b9f88144d313f52725.png",
@@ -285,6 +303,7 @@
             ],
             "models": [
                 {
+                    "id": 1,
                     "BrandName": "Honda",
                     "name": "Civic",
                     "model_Img": "https://i.ibb.co/6JqZBtH/32534-7-honda-civic-transparent-background.png",
@@ -298,6 +317,7 @@
                     "description": "The Honda Civic is a popular sedan known for its reliability and fuel efficiency. With a 2.0L Inline-4 engine, it combines practicality with a sleek design for a comfortable driving experience."
                 },
                 {
+                    "id": 2,
                     "BrandName": "Honda",
                     "name": "Accord",
                     "model_Img": "https://i.ibb.co/HdKsXTB/36632-7-2013-honda-accord-sedan.png",
@@ -311,6 +331,7 @@
                     "description": "The Honda Accord is a reliable sedan that offers a blend of performance and comfort. With a 1.5L Turbocharged Inline-4 engine, it's designed for those who appreciate a smooth and efficient ride."
                 },
                 {
+                    "id": 3,
                     "BrandName": "Honda",
                     "name": "CR-V",
                     "model_Img": "https://i.ibb.co/7Cn5TJs/800x510.png",
@@ -324,6 +345,7 @@
                     "description": "The Honda CR-V is a versatile SUV designed for family adventures. With a 1.5L Turbocharged Inline-4 engine, it provides a spacious and comfortable ride for both city and off-road driving."
                 },
                 {
+                    "id": 4,
                     "BrandName": "Honda",
                     "name": "Pilot",
                     "model_Img": "https://i.ibb.co/4g9hVPR/22-Honda-Pilot-Special-Edition-Gray-no-background-LG.png",
@@ -337,6 +359,7 @@
                     "description": "The Honda Pilot is a reliable and spacious SUV designed for families on the go. With a powerful 3.5L V6 engine, it offers a smooth and safe driving experience for all passengers."
                 },
                 {
+                    "id": 5,
                     "BrandName": "Honda",
                     "name": "Odyssey",
                     "model_Img": "https://i.ibb.co/jrBNFpj/2022-76.png",
@@ -350,6 +373,7 @@
                     "description": "The Honda Odyssey is a family-friendly minivan that prioritizes comfort and convenience. With a 3.5L V6 engine, it provides a spacious and enjoyable ride for all passengers."
                 },
                 {
+                    "id": 6,
                     "BrandName": "Honda",
                     "name": "Fit",
                     "model_Img": "https://i.ibb.co/7zKBdXn/car-001.png",
@@ -376,6 +400,7 @@
             ],
             "models": [
                 {
+                    "id": 1,
                     "BrandName": "Mercedes",
                     "name": "C-Class",
                     "model_Img": "https://i.ibb.co/JsJhqS3/e-class-no-background.png",
@@ -389,6 +414,7 @@
                     "description": "The Mercedes-Benz C-Class is a luxury sedan that combines elegance with performance. With a 2.0L Turbocharged Inline-4 engine, it offers a sophisticated driving experience for those who seek both style and power."
                 },
                 {
+                    "id": 2,
                     "BrandName": "Mercedes",
                     "name": "E-Class",
                     "model_Img": "https://i.ibb.co/JsJhqS3/e-class-no-background.png",
@@ -402,6 +428,7 @@
                     "description": "The Mercedes-Benz E-Class is a sophisticated sedan that offers a balance of comfort and performance. With a 2.0L Turbocharged Inline-4 engine, it's designed for those who appreciate luxury and technology."
                 },
                 {
+                    "id": 3,
                     "BrandName": "Mercedes",
                     "name": "GLC",
                     "model_Img": "https://i.ibb.co/k9SzmnB/2023-Mercedes-Benz-GLC-No-Background.webp",
@@ -415,6 +442,7 @@
                     "description": "The Mercedes-Benz GLC is a stylish SUV that combines versatility with luxury. With a 2.0L Turbocharged Inline-4 engine, it provides a comfortable and dynamic driving experience for both city and off-road adventures."
                 },
                 {
+                    "id": 4,
                     "BrandName": "Mercedes",
                     "name": "S-Class",
                     "model_Img": "https://i.ibb.co/pW0F0gS/model1.png",
@@ -428,6 +456,7 @@
                     "description": "The Mercedes-Benz S-Class is the epitome of luxury and innovation. With a powerful 3.0L Turbocharged Inline-6 engine, it offers a premium driving experience with cutting-edge technology and comfort features."
                 },
                 {
+                    "id": 5,
                     "BrandName": "Mercedes",
                     "name": "A-Class",
                     "model_Img": "https://i.ibb.co/MN13Qr7/Mercedes-A-Class-Saloon-PNG-Clipart.png",
@@ -441,6 +470,7 @@
                     "description": "The Mercedes-Benz A-Class is a compact luxury sedan that combines style with performance. With a 2.0L Turbocharged Inline-4 engine, it offers a sporty and refined driving experience for urban dwellers."
                 },
                 {
+                    "id": 6,
                     "BrandName": "Mercedes",
                     "name": "G-Class",
                     "model_Img": "https://i.ibb.co/9tzR1TJ/ezgif-com-webp-to-jpg-1-removebg-preview-6.png",
@@ -462,52 +492,18 @@
             "image": "https://i.ibb.co/6WxsvJY/Chevrolet-Logo-2010.png",
             "models": [
                 {
-                    "name": "Silverado",
-                    "year": 2023,
-                    "horsepower": 285,
-                    "engine": "2.7L Turbocharged Inline-4",
-                    "type": "Truck",
-                    "fuel": "Gasoline"
-                },
-                {
-                    "name": "Equinox",
-                    "year": 2023,
-                    "horsepower": 170,
-                    "engine": "1.5L Turbocharged Inline-4",
-                    "type": "SUV",
-                    "fuel": "Gasoline"
-                },
-                {
-                    "name": "Malibu",
-                    "year": 2023,
-                    "horsepower": 160,
-                    "engine": "1.5L Turbocharged Inline-4",
-                    "type": "Sedan",
-                    "fuel": "Gasoline"
-                },
-                {
-                    "name": "Traverse",
-                    "year": 2023,
-                    "horsepower": 310,
-                    "engine": "3.6L V6",
-                    "type": "SUV",
-                    "fuel": "Gasoline"
-                },
-                {
-                    "name": "Camaro",
-                    "year": 2023,
-                    "horsepower": 275,
-                    "engine": "2.0L Turbocharged Inline-4",
-                    "type": "Coupe",
-                    "fuel": "Gasoline"
-                },
-                {
-                    "name": "Colorado",
-                    "year": 2023,
-                    "horsepower": 200,
-                    "engine": "2.5L Inline-4",
-                    "type": "Truck",
-                    "fuel": "Gasoline"
+                    "id": 1,
+                    "BrandName": "",
+                    "name": "",
+                    "model_Img": "",
+                    "year": "",
+                    "horsepower": "",
+                    "engine": "",
+                    "type": "",
+                    "fuel": "",
+                    "ratings": "",
+                    "price": "",
+                    "description": ""
                 }
             ]
         }
