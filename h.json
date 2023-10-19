@@ -13,8 +13,8 @@
             "models": [
                 {
                     "id": 1,
-                    "BrandName": "Toyota",
-                    "name": "Camry",
+
+                    "ModelName": "Camry",
                     "model_Img": "https://i.ibb.co/gMmZ6tZ/cc-2023-TOC020042-01-1280-040.png",
                     "year": 2023,
                     "horsepower": 203,
@@ -27,8 +27,8 @@
                 },
                 {
                     "id": 2,
-                    "BrandName": "Toyota",
-                    "name": "Corolla",
+
+                    "ModelName": "Corolla",
                     "model_Img": "https://i.ibb.co/qF1Gx5Q/SPN-AUS-0101-F7-FA204-E24420-A0-compcrop-001.png",
                     "year": 2012,
                     "horsepower": 169,
@@ -41,8 +41,8 @@
                 },
                 {
                     "id": 3,
-                    "BrandName": "Toyota",
-                    "name": "Rav4",
+
+                    "ModelName": "Rav4",
                     "model_Img": "https://i.ibb.co/9HYYFjy/1.png",
                     "year": 2023,
                     "horsepower": 203,
@@ -55,8 +55,7 @@
                 },
                 {
                     "id": 4,
-                    "BrandName": "Toyota",
-                    "name": "Prius",
+                    "ModelName": "Prius",
                     "model_Img": "https://i.ibb.co/PG1Z0Rt/51364-st0640-116.png",
                     "year": 2014,
                     "horsepower": 121,
@@ -69,8 +68,7 @@
                 },
                 {
                     "id": 5,
-                    "BrandName": "Toyota",
-                    "name": "Highlander",
+                    "ModelName": "Highlander",
                     "model_Img": "https://i.ibb.co/K9b4pC1/hero-image-highlander.png",
                     "year": 2023,
                     "horsepower": 295,
@@ -83,8 +81,7 @@
                 },
                 {
                     "id": 6,
-                    "BrandName": "Toyota",
-                    "name": "Tacoma",
+                    "ModelName": "Tacoma",
                     "model_Img": "https://i.ibb.co/FKyz04F/b23-gz5ant-fl1-0089-n.png",
                     "year": 2023,
                     "horsepower": 278,
@@ -110,8 +107,7 @@
             "models": [
                 {
                     "id": 1,
-                    "BrandName": "Ford",
-                    "name": "F-150",
+                    "ModelName": "F-150",
                     "model_Img": "https://i.ibb.co/6Yb6fkX/2022-Ford-F-150-Lightning.png",
                     "year": 2022,
                     "horsepower": 290,
@@ -124,8 +120,7 @@
                 },
                 {
                     "id": 2,
-                    "BrandName": "Ford",
-                    "name": "Mustang",
+                    "ModelName": "Mustang",
                     "model_Img": "https://i.ibb.co/Jmxw01R/Red-Ford-Mustang-2018-e1502714056124-1024x576.png",
                     "year": 2019,
                     "horsepower": 310,
@@ -137,9 +132,8 @@
                     "description": "The Ford Mustang is an iconic coupe known for its performance and style. Featuring a 2.3L Turbocharged Inline-4 engine, it provides a thrilling driving experience for enthusiasts."
                 },
                 {
-                    "id":3,
-                    "BrandName": "Ford",
-                    "name": "Escape",
+                    "id": 3,
+                    "ModelName": "Escape",
                     "model_Img": "https://i.ibb.co/g6V7xzS/337-3373480-new-2018-ford-escape-titanium-white-ford-escape.png",
                     "year": 2018,
                     "horsepower": 181,
@@ -152,8 +146,7 @@
                 },
                 {
                     "id": 4,
-                    "BrandName": "Ford",
-                    "name": "Explorer",
+                    "ModelName": "Explorer",
                     "model_Img": "https://i.ibb.co/wRg1Vyg/c05d0ce7b440475fb09dad8412853707-768x425.png",
                     "year": 2013,
                     "horsepower": 300,
@@ -166,8 +159,7 @@
                 },
                 {
                     "id": 5,
-                    "BrandName": "Ford",
-                    "name": "Edge",
+                    "ModelName": "Edge",
                     "model_Img": "https://i.ibb.co/Lx4gjt2/ford-edge-png-33.png",
                     "year": 2023,
                     "horsepower": 250,
@@ -180,8 +172,7 @@
                 },
                 {
                     "id": 6,
-                    "BrandName": "Ford",
-                    "name": "Focus",
+                    "ModelName": "Focus",
                     "model_Img": "https://i.ibb.co/k0HKvMq/Ford-Focus-ST-PNG-File.png",
                     "year": 2023,
                     "horsepower": 160,
@@ -207,8 +198,7 @@
             "models": [
                 {
                     "id": 1,
-                    "BrandName": "BMW",
-                    "name": "3 Series",
+                    "ModelName": "3 Series",
                     "model_Img": "https://i.ibb.co/w4dktVD/bmw-3-series-328i-sedan-png-215681005306dzhlusew6.png",
                     "year": 2020,
                     "horsepower": 255,
@@ -221,8 +211,7 @@
                 },
                 {
                     "id": 2,
-                    "BrandName": "BMW",
-                    "name": "5 Series",
+                    "ModelName": "5 Series",
                     "model_Img": "https://i.ibb.co/jfP09sb/2023-bmw-530e-sedan.png",
                     "year": 2023,
                     "horsepower": 248,
@@ -235,8 +224,7 @@
                 },
                 {
                     "id": 3,
-                    "BrandName": "BMW",
-                    "name": "X3",
+                    "ModelName": "X3",
                     "model_Img": "https://i.ibb.co/WGQnYzM/4f776c67-fedf-4fb3-8db1-4b84ef270069.png",
                     "year": 2023,
                     "horsepower": 248,
@@ -249,8 +237,7 @@
                 },
                 {
                     "id": 4,
-                    "BrandName": "BMW",
-                    "name": "7 Series",
+                    "ModelName": "7 Series",
                     "model_Img": "https://i.ibb.co/NK51Jyb/2017-BMC810001-1280-01.png",
                     "year": 2023,
                     "horsepower": 335,
@@ -263,8 +250,7 @@
                 },
                 {
                     "id": 5,
-                    "BrandName": "BMW",
-                    "name": "X5",
+                    "ModelName": "X5",
                     "model_Img": "https://i.ibb.co/Nt6f2HS/800x531.png",
                     "year": 2023,
                     "horsepower": 335,
@@ -277,8 +263,7 @@
                 },
                 {
                     "id": 6,
-                    "BrandName": "BMW",
-                    "name": "i8",
+                    "ModelName": "i8",
                     "model_Img": "https://i.ibb.co/HXCbyQL/910602979bda92b9f88144d313f52725.png",
                     "year": 2023,
                     "horsepower": 369,
@@ -304,8 +289,7 @@
             "models": [
                 {
                     "id": 1,
-                    "BrandName": "Honda",
-                    "name": "Civic",
+                    "ModelName": "Civic",
                     "model_Img": "https://i.ibb.co/6JqZBtH/32534-7-honda-civic-transparent-background.png",
                     "year": 2023,
                     "horsepower": 158,
@@ -318,8 +302,7 @@
                 },
                 {
                     "id": 2,
-                    "BrandName": "Honda",
-                    "name": "Accord",
+                    "ModelName": "Accord",
                     "model_Img": "https://i.ibb.co/HdKsXTB/36632-7-2013-honda-accord-sedan.png",
                     "year": 2013,
                     "horsepower": 192,
@@ -332,8 +315,7 @@
                 },
                 {
                     "id": 3,
-                    "BrandName": "Honda",
-                    "name": "CR-V",
+                    "ModelName": "CR-V",
                     "model_Img": "https://i.ibb.co/7Cn5TJs/800x510.png",
                     "year": 2023,
                     "horsepower": 190,
@@ -346,8 +328,7 @@
                 },
                 {
                     "id": 4,
-                    "BrandName": "Honda",
-                    "name": "Pilot",
+                    "ModelName": "Pilot",
                     "model_Img": "https://i.ibb.co/4g9hVPR/22-Honda-Pilot-Special-Edition-Gray-no-background-LG.png",
                     "year": 2013,
                     "horsepower": 280,
@@ -360,8 +341,7 @@
                 },
                 {
                     "id": 5,
-                    "BrandName": "Honda",
-                    "name": "Odyssey",
+                    "ModelName": "Odyssey",
                     "model_Img": "https://i.ibb.co/jrBNFpj/2022-76.png",
                     "year": 2022,
                     "horsepower": 280,
@@ -374,8 +354,7 @@
                 },
                 {
                     "id": 6,
-                    "BrandName": "Honda",
-                    "name": "Fit",
+                    "ModelName": "Fit",
                     "model_Img": "https://i.ibb.co/7zKBdXn/car-001.png",
                     "year": 2023,
                     "horsepower": 130,
@@ -401,8 +380,7 @@
             "models": [
                 {
                     "id": 1,
-                    "BrandName": "Mercedes",
-                    "name": "C-Class",
+                    "ModelName": "C-Class",
                     "model_Img": "https://i.ibb.co/JsJhqS3/e-class-no-background.png",
                     "year": 2016,
                     "horsepower": 255,
@@ -415,8 +393,7 @@
                 },
                 {
                     "id": 2,
-                    "BrandName": "Mercedes",
-                    "name": "E-Class",
+                    "ModelName": "E-Class",
                     "model_Img": "https://i.ibb.co/JsJhqS3/e-class-no-background.png",
                     "year": 2016,
                     "horsepower": 255,
@@ -429,8 +406,7 @@
                 },
                 {
                     "id": 3,
-                    "BrandName": "Mercedes",
-                    "name": "GLC",
+                    "ModelName": "GLC",
                     "model_Img": "https://i.ibb.co/k9SzmnB/2023-Mercedes-Benz-GLC-No-Background.webp",
                     "year": 2023,
                     "horsepower": 255,
@@ -443,8 +419,7 @@
                 },
                 {
                     "id": 4,
-                    "BrandName": "Mercedes",
-                    "name": "S-Class",
+                    "ModelName": "S-Class",
                     "model_Img": "https://i.ibb.co/pW0F0gS/model1.png",
                     "year": 2022,
                     "horsepower": 429,
@@ -457,8 +432,7 @@
                 },
                 {
                     "id": 5,
-                    "BrandName": "Mercedes",
-                    "name": "A-Class",
+                    "ModelName": "A-Class",
                     "model_Img": "https://i.ibb.co/MN13Qr7/Mercedes-A-Class-Saloon-PNG-Clipart.png",
                     "year": 2020,
                     "horsepower": 188,
@@ -471,8 +445,7 @@
                 },
                 {
                     "id": 6,
-                    "BrandName": "Mercedes",
-                    "name": "G-Class",
+                    "ModelName": "G-Class",
                     "model_Img": "https://i.ibb.co/9tzR1TJ/ezgif-com-webp-to-jpg-1-removebg-preview-6.png",
                     "year": 2022,
                     "horsepower": 416,
@@ -493,8 +466,7 @@
             "models": [
                 {
                     "id": 1,
-                    "BrandName": "",
-                    "name": "",
+                    "ModelName": "",
                     "model_Img": "",
                     "year": "",
                     "horsepower": "",
