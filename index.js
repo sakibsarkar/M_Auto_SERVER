@@ -11,6 +11,25 @@ app.use(cors())
 app.use(express.json())
 
 
+
+// error handling
+app.use((req, res, next) => {
+  const error = new Error('Not Found');
+  error.status = 404;
+  next(error);
+});
+
+app.use((error, req, res, next) => {
+  res.status(error.status || 500);
+  res.json({
+    error: {
+      message: error.message
+    }
+  });
+});
+
+
+
 const usrName = process.env.MONGO_USERNAME
 const PASS = process.env.MONGO_PASS
 
@@ -62,6 +81,7 @@ async function run() {
 
 
     // this will update model information(update.jsx-45)
+    //warning: send  a array in JSON.stringify() method
     app.put("/brands/:brand", async (req, res) => {
       const brand = req.params.brand
       const value = req.body

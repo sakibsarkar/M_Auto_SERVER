@@ -13,7 +13,6 @@
             "models": [
                 {
                     "id": 1,
-
                     "ModelName": "Camry",
                     "model_Img": "https://i.ibb.co/gMmZ6tZ/cc-2023-TOC020042-01-1280-040.png",
                     "year": 2023,
@@ -27,7 +26,6 @@
                 },
                 {
                     "id": 2,
-
                     "ModelName": "Corolla",
                     "model_Img": "https://i.ibb.co/qF1Gx5Q/SPN-AUS-0101-F7-FA204-E24420-A0-compcrop-001.png",
                     "year": 2012,
@@ -41,7 +39,6 @@
                 },
                 {
                     "id": 3,
-
                     "ModelName": "Rav4",
                     "model_Img": "https://i.ibb.co/9HYYFjy/1.png",
                     "year": 2023,
@@ -381,7 +378,7 @@
                 {
                     "id": 1,
                     "ModelName": "C-Class",
-                    "model_Img": "https://i.ibb.co/JsJhqS3/e-class-no-background.png",
+                    "model_Img": "https://i.ibb.co/5cXP0mx/c-class-no-background.png",
                     "year": 2016,
                     "horsepower": 255,
                     "engine": "2.0L Turbocharged Inline-4",
@@ -463,21 +460,12 @@
             "country": "United States",
             "founded": 1911,
             "image": "https://i.ibb.co/6WxsvJY/Chevrolet-Logo-2010.png",
-            "models": [
-                {
-                    "id": 1,
-                    "ModelName": "",
-                    "model_Img": "",
-                    "year": "",
-                    "horsepower": "",
-                    "engine": "",
-                    "type": "",
-                    "fuel": "",
-                    "ratings": "",
-                    "price": "",
-                    "description": ""
-                }
-            ]
+            "banner": [
+                "https://i.ibb.co/fHc6cW0/lifetime-banner-1800x760.jpg",
+                "https://i.ibb.co/k4WDHr6/6b016c7b7ab24421883129f6badade3c-1600x518.jpg",
+                "https://i.ibb.co/mtDqQ25/Chevy-Trailblazer-Banner-10-23-RR-1800x760.jpg"
+            ],
+            "models": []
         }
     ]
 }
